@@ -1,0 +1,43 @@
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: clamp(1em, 1.25vw, 1.5em);
+  padding: 0;
+  margin: 0;
+  max-width: 48em;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+body > * {
+  padding: 1em;
+}
+
+header {
+  background-color: hsl(0, 0%, 80%);
+  border-radius: 0 0 1em 1em;
+}
+
+blockquote {
+  background-color: hsl(0, 0%, 90%);
+  border-radius: 0.5em;
+  padding: 1em;
+}
+
+footer {
+  background-color: hsl(0, 0%, 80%);
+  border-radius: 1em 1em 0 0;
+  margin-top: auto;
+  text-align: center;
+}
