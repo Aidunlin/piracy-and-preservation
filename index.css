@@ -24,7 +24,15 @@ body > * {
 }
 
 header {
-  background-color: hsl(0, 0%, 80%);
+  background-color: hsl(0, 0%, 90%);
+}
+
+h1 {
+  color: #b45f06;
+}
+
+h2 {
+  color: #4285f4;
 }
 
 header > div, footer > div, main {
@@ -39,6 +47,25 @@ blockquote {
 }
 
 footer {
-  background-color: hsl(0, 0%, 80%);
+  background-color: hsl(0, 0%, 90%);
   margin-top: auto;
+}
+
+figure {
+  border: 1px solid #b45f06;
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+  display: block;
+}
+
+summary {
+  cursor: pointer;
+  padding: 1em;
+}
+
+li {
+  margin: 1em;
 }
